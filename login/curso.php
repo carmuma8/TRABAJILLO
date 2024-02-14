@@ -50,7 +50,7 @@
 
     <body>
 
-
+<p> prueba </p>
 <form action="#">
     <label for="nombre_usuario">Nombre:</label>
     <input type="text" id="nombre_usuario" name="nombre_usuario" required>
