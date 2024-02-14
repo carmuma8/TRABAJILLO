@@ -1,0 +1,87 @@
+body {
+ margin: 0;
+ padding: 0;
+font-family: 'Roboto', 'Arial Narrow', Arial, sans-serif;
+color: pink;
+background-color: rgb(231, 238, 238);
+
+
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 15px;
+
+}
+
+input[type="text"], input[type="password"] {
+  outline: none;
+  padding: 20px;
+  display: block;
+  border: 1px solid #eee;
+
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: beige;
+    color: rebeccapurple;
+    margin: 10px;
+  
+  }
+  
+  input[type="submit"]:hover {
+    background-color: aqua;
+
+  }
+
+  header {
+    border-bottom: 2px solid grey;
+    padding: 20px 0;
+    width: 100%;
+  }
+
+
+  .login-box {
+    background: white;
+    width: 350px;
+    height: 650px;
+    margin: 50px auto;
+    padding: 35px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  }
+
+
+  #signup-successful {
+    background: white;
+    padding: 15px;
+    width: fit-content;
+    border-radius: 15px;
+    margin: 0 auto;
+    color: forestgreen;
+    font-size: 18px;
+
+  }
+
+
+  #signup-successful::before {
+    margin-right: 10px;
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+
+  }
+
+
+  #login-failed {
+    background: white;
+    padding: 15px;
+    width: fit-content;
+    border-radius: 15px;
+    margin: 0 auto;
+    color: rgb(139, 34, 57);
+    font-size: 18px;
+
+  }
